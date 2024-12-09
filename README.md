@@ -1,0 +1,2 @@
+Olá! Meu nome é Mateus e este é o repositório onde contém todos os projetos que eu desenvolvi ao longo do curso de Qualificação Profissional Básica de Programador Front-End do Serviço Nacional de Aprendizagem Indústrial (SENAI).
+Ao longo destes projetos, foram trabalhadas e utilizadas não só linguagens como HTML, CSS e frameworks como Boostrap, mas também toda a parte de Design, Prototipagem Web com prótotipos de Baixa e Alta fidelidade e também quesitos fundamentais de Responsividade de uma Aplicação Web.  
