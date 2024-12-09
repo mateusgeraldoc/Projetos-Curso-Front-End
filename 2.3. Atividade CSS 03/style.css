@@ -1,0 +1,68 @@
+h1 {
+    font: 3em Verdana;
+    color: rgb(19, 19, 19);
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font: 1.3em Verdana; 
+    font-weight: bolder;
+    }
+
+p{
+    text-align: justify;
+    color: rgb(95, 95, 95);
+    font: 1.3em Verdana; 
+    }
+
+.menu {
+    position: absolute;
+    left: 1%;
+    width: 98%; 
+    background: #363636; 
+    display: flex; 
+    justify-content: left; 
+    padding: 0px 0px;
+   }
+
+.video{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+video{ 
+    max-width: 100%; /* Ajusta a largura do vídeo */ height: auto; /* Mantém a proporção */ 
+    
+}
+
+li {
+    list-style: none; 
+    display: inline;
+    }	
+
+a { 
+    padding: 10px; 
+    color: #e29b31; 
+    font: 1.5em Verdana; 
+    }
+
+
+a:hover { 
+    padding: 10px; 
+    color: #fff; 
+    font: 1.5em Verdana; 
+    text-decoration: none;
+    }
+
+#conteudo{
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    height: 80%;
+    top: 25%;
+    border: #444 0px solid;
+    }

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia Musical</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" type="imagex/png" href="/img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body py-3" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img id="logo" src="/img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a style="text-decoration: underline;" class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="produtos.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/cadastro.html">Cadastre-se</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/sobre.html">Sobre</a>
+              </li>
+              <li>
+                <div class="container py-2">
+                    <a id="icon" href="#" class= "position-relative text-white me-3"><i class= "bi bi-cart3"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    
+    <!--Header-->
+      
+        <a href="produtos.html">
+          <header>
+            <div class="container">
+              <div class="bg-body-tertiary"></div>
+            </div>
+          </header>
+        </a>
+
+
+    <!--Main-->
+      <main>
+        <div class="container-expand-lg py-4 text-center ">
+            <section>
+                <div class="container tex-center py-4">
+                <h2>Destaques</h2>
+                <div class="row" style="padding-top: 30px;">
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="img/violao1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Violão Yamaha FGX-800</h5>
+                      <p class="card-text">Violão Yamaha Eletroacústico Aço FGX800C/02 Natural FGX-800</p>
+                      <p class="card-text-price">R$2.499,00</p>
+                      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal1">
+                        Ver Detalhes
+                      </button>
+                        <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ModalLabel1">Violão Yamaha FGX-800</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                            <div class="modal-body">
+                              <section>
+                                 <div class="container">
+                                    <div class="row">
+                                      <div class="col-9 col-md-6 col-lg-3 mb-4">
+                                        <img src="img/violao1.png">
+                                        <h2 class="h2Card">Avaliação:</h2>
+                                        <img class="avaliacao" src="img/avaliação.png">
+                                      </div>
+                                      <div class="col-9 col-md-6 col-lg-9 mb-4">
+                                        <h2 class="h2Card">Descrição:</h2>
+                                        <p class="pCard">Derivado do FG800 que tem o tampo em abeto sólido e fundo e laterais em nato/okume, o FGX800C tem corte de corpo e sistema elétrico. O captador piezo sob o rastilho e o pré-amplificador analógico System66 de propriedade da Yamaha garantem o desempenho amplificado sólido.</p>
+                                        <h2 class="h2Card">Informações:</h2>
+                                        <p>- Corpo estilo Western tradicional.</p>
+                                        <p>- Fundo e laterais em nato/okume.</p>
+                                        <p>- Aparências tradicionais e qualidade excepcional.</p>
+                                        <p>- Tipo:Eletroacústico</p>
+                                        <p>- Cordas:6 Cordas em Aço</p>
+                                        <p>- Cor:Natural</p>
+                                        <p>- Tampo:Solid Spruce</p>
+                                        <h2 class="h2Card">Calcular Frete:</h2>
+                                        <p class="pCard">Entrega feita por: CorreiosExpress</p>
+                                        <input class="form-control form-control-lg" type="text" placeholder="CEP" aria-label=".form-control-lg example">
+                                      </div>
+                                    </div>
+                                 </div>
+                              </section>
+                              <section>
+                                <div class="conteiner px-3 d-lg-flex justify-content-end">
+                                  <p class="valor">valor</p>
+                                  <p class="preco">R$2.499,00</p>
+                                </div>
+                              </section>
+                            </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Adcionar ao Carrinho</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/guitarra2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Giannini Standard G-100</h5>
+                      <p class="card-text">Guitarra elétrica Giannini Standard G-100 BK/WH</p>
+                      <p class="card-text-price">R$999,99</p>
+                      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal4">
+                        Ver Detalhes
+                      </button>
+                        <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="ModalLabel4" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ModalLabel4">Guitarra Gibson Les Paul Cherry</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                            <div class="modal-body">
+                              <section>
+                                 <div class="container">
+                                    <div class="row">
+                                      <div class="col-9 col-md-6 col-lg-3 mb-4">
+                                        <img src="/img/guitarra2.png">
+                                        <h2 class="h2Card">Avaliação:</h2>
+                                        <img class="avaliacao" src="img/avaliação.png">
+                                      </div>
+                                      <div class="col-9 col-md-6 col-lg-9 mb-4">
+                                        <h2 class="h2Card">Descrição:</h2>
+                                        <p class="pCard">A G100 da Giannini é uma guitarra muito versátil. Seu timbre, produzido pelos bons captadores Single Coils Sonic-X, se adapta facilmente ao estilo musical do guitarrista.</p>
+                                        <h2 class="h2Card">Informações:</h2>
+                                        <p>- Tipo de madeira do corpo: Choupo</p>
+                                        <p>- Acabamento do corpo: Verniz</p>
+                                        <p>- Orientação da mão: Destro </p>
+                                        <p>- Com 6 cordas e 22 trastes de tamanho medium jumbo. </p>
+                                        <p>- Material do diapasão: Madeira técnica</p>
+                                        <p>- Controles de chave seletora de captadores.</p>
+                                        <p>- Sons fortes e firmes com um estilo próprio.</p>
+                                        <h2 class="h2Card" style="padding-top: 30px;">Calcular Frete:</h2>
+                                        <p class="pCard">Entrega feita por: CorreiosExpress</p>
+                                        <input class="form-control form-control-lg" type="text" placeholder="CEP" aria-label=".form-control-lg example">
+                                      </div>
+                                    </div>
+                                 </div>
+                              </section>
+                              <section>
+                                <div class="conteiner px-3 d-lg-flex justify-content-end">
+                                  <p class="valor">valor</p>
+                                  <p class="preco">R$999,99</p>
+                                </div>
+                              </section>
+                            </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Adcionar ao Carrinho</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/teclado1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Yamaha PSR-E473</h5>
+                      <p class="card-text">Teclado Musical Yamaha PSR-E473 preto com fonte Bivolt</p>
+                      <p class="card-text-price">R$2.199,99</p>
+                      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal5">
+                        Ver Detalhes
+                      </button>
+                        <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="ModalLabel5" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ModalLabel5">Teclado Yamaha PSR-E473</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                            <div class="modal-body">
+                              <section>
+                                 <div class="container">
+                                    <div class="row">
+                                      <div class="col-9 col-md-6 col-lg-3 mb-4">
+                                        <img src="/img/teclado1.png">
+                                        <h2 class="h2Card">Avaliação:</h2>
+                                        <img class="avaliacao" src="img/avaliação.png">
+                                      </div>
+                                      <div class="col-9 col-md-6 col-lg-9 mb-4">
+                                        <h2 class="h2Card">Descrição:</h2>
+                                        <p class="pCard">Com suas 61 teclas, você poderá tocar uma grande variedade de obras e mergulhar no mundo do intérprete musical. Ideal para níveis intermediários que querem se superar e seguir o caminho dos grandes músicos.</p>
+                                        <h2 class="h2Card">Informações:</h2>
+                                        <p>- Possui 622 timbres e 820 ritmos.</p>
+                                        <p>- Tipo de alimentação: energia.</p>
+                                        <p>- Tem 154 canções carregadas.</p>
+                                        <p>- Soam até 64 notas simultaneamente.</p>
+                                        <p>- Com display LCD.</p>
+                                        <p>- Com gravador e metrônomo.</p>
+                                        <p>- Tem uma interface MIDI.</p>
+                                        <h2 class="h2Card" style="padding-top: 30px;">Calcular Frete:</h2>
+                                        <p class="pCard">Entrega feita por: CorreiosExpress</p>
+                                        <input class="form-control form-control-lg" type="text" placeholder="CEP" aria-label=".form-control-lg example">
+                                      </div>
+                                    </div>
+                                 </div>
+                              </section>
+                              <section>
+                                <div class="conteiner px-3 d-lg-flex justify-content-end">
+                                  <p class="valor">valor</p>
+                                  <p class="preco">R$2.199,99</p>
+                                </div>
+                              </section>
+                            </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Adcionar ao Carrinho</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/bateria2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Premium Dx722</h5>
+                      <p class="card-text">Bateria Acústica Premium Dx722 Completa Preta Dx-722 cor Preto</p>
+                      <p class="card-text-price">R$2.999,99</p>
+                      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal8">
+                        Ver Detalhes
+                      </button>
+                        <div class="modal fade" id="Modal8" tabindex="-1" aria-labelledby="ModalLabel8" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ModalLabel8">Teclado Yamaha PSR-E473</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                            <div class="modal-body">
+                              <section>
+                                 <div class="container">
+                                    <div class="row">
+                                      <div class="col-9 col-md-6 col-lg-3 mb-4">
+                                        <img src="/img/bateria2.png">
+                                        <h2 class="h2Card">Avaliação:</h2>
+                                        <img class="avaliacao" src="img/avaliação.png">
+                                      </div>
+                                      <div class="col-9 col-md-6 col-lg-9 mb-4">
+                                        <h2 class="h2Card">Descrição:</h2>
+                                        <p class="pCard">Ótima sonoridade e um excelente custo-benefício, pois além do conjunto de tambores e ferragens já vem acompanhada de pratos e banco - é só sair tocando! </p>
+                                        <h2 class="h2Card">Informações:</h2>
+                                        <p>- Bumbo: 22x16 </p>
+                                        <p>- Tons: 10x8, 12x9.</p>
+                                        <p>- Surdo: 16x14</p>
+                                        <p>- Caixa: 14x5,5</p>
+                                        <p>- Modelo: DX722</p>
+                                        <p>- Cor: Preto</p>
+                                        <h2 class="h2Card" style="padding-top: 30px;">Calcular Frete:</h2>
+                                        <p class="pCard">Entrega feita por: CorreiosExpress</p>
+                                        <input class="form-control form-control-lg" type="text" placeholder="CEP" aria-label=".form-control-lg example">
+                                      </div>
+                                    </div>
+                                 </div>
+                              </section>
+                              <section>
+                                <div class="conteiner px-3 d-lg-flex justify-content-end">
+                                  <p class="valor">valor</p>
+                                  <p class="preco">R$2.999,99</p>
+                                </div>
+                              </section>
+                            </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Adcionar ao Carrinho</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+            </section>
+        </div>
+      </main>
+
+    <!--Footer-->
+      <footer class="bg-dark text-center py-5">
+        <div class="container-expand-lg">
+            <p style="color:white; text-align: center;"> &copy; 2024 Landpage - Todos os Direitos Reservados a Mateus Cunha</p>
+            <a class="footer_icon" href="#"><i class="bi bi-envelope"></i></a></a>
+            <a class="footer_icon" href="#"><i class="bi bi-whatsapp"></i></a></a>
+            <a class="footer_icon" href="#"><i class="bi bi-instagram"></i></a></a>
+        </div>
+      </footer>
+    <!--JS Library-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

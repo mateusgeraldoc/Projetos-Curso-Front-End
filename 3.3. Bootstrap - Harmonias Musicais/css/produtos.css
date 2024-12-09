@@ -1,0 +1,87 @@
+main{
+    background: linear-gradient(to left, rgba(238, 176, 101, 0.3), rgba(245, 236, 225, 0.3) 15% 85% , rgba(238, 176, 101, 0.3)) no-repeat;
+}
+
+#logo{
+    height: 50px;
+    width: 100px;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+
+.card{
+    box-shadow: 0px 3px 2px #000000c7;
+    .card-body{
+        background-color: #fff4dd6c;
+    }
+}
+
+.card:hover{
+    box-shadow: 0px 3px 10px #000000c7;
+    cursor: pointer;
+}
+
+.card-text-price{
+    text-align: center;
+    color: rgba(20, 20, 20, 0.8);
+    font-size: 1.2em;
+}
+
+p{
+    text-align: justify;
+    color: rgb(138, 138, 138);
+}
+
+img{
+    height: 250px;
+}
+
+.avaliacao{
+    height: 25px;
+    padding-right: 30px;
+}
+
+.modal-body{
+    img{
+        width: 220px;
+    }
+    text-align: right;
+}
+
+.h2Card{
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.pCard{
+    text-align: justify;
+}
+
+.valor{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    padding-top: 47px;
+    padding-right: 5px;
+}
+.preco{
+    font-size: 2em;
+    color: green;
+    padding-top: 40px;
+    text-decoration: underline;
+}
+
+.footer_icon{
+    padding: 10px;
+    color: white;
+}

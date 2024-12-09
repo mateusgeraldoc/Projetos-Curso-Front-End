@@ -1,0 +1,148 @@
+<html>
+<head>
+    <meta charset = "uft-8">
+    <link rel = "stylesheet" href = "main.css";>
+    <title>Hoteis - Ouro Preto</title>
+    <style>
+        .cadastro{
+            margin: 0 auto;
+            border: 2px solid rgb(105, 105, 105);
+            border-radius: 6px;
+            background-color: rgba(255, 240, 240, 0.541);
+            padding: 15px
+        }
+
+        .cadastro td{
+            padding: 4px;  
+        }
+
+        .cadastro input{
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 4px;
+            width: 500px;
+            font-family: Verdana;
+        }
+
+        .cadastro input:hover{
+            border: 1px solid rgb(255, 145, 0);
+        }
+
+        .campos{
+            text-align: left;
+            font-family: Verdana;
+        }
+
+        .cadastro .radio{
+            width: 20px;
+        }
+
+        #cadastrar{
+            border: 1px solid black;
+            border-radius: 4px;
+            background-color: rgba(255, 195, 105, 0.993);
+            font-family: Verdana;
+            font-weight: bold;
+            text-align: right;
+            width: 17%;
+            height: 40px;   
+        }
+
+        #cadastrar:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 145, 0);
+            font-family: Verdana;
+            font-weight: bold;
+            text-align: center;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        #botão{
+            text-align: right;
+        }
+
+        fieldset{
+            border: white;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1><a id = "home" href = "index.html">Cadastro</a></h1>
+    <hr>
+    <div id = "menu">
+        <ul>
+            <li><a href = "serviços.html">SERVIÇOS</a></li>
+            <li><a href = "unidades.html">UNIDADES</a></li>
+            <li><a href = "cadastro.html">CADASTRO</a></li>
+            <li><a href = "sobre.html">SOBRE</a></li>
+        </ul>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+                <table class = "cadastro">
+                    <tr>
+                        <td class = "campos"><label>Nome: </label></td> <td><input type = "text" required></td>
+                    </tr>
+                    <tr>
+                        <td class = "campos"><label>Email:</label></td> <td><input type = "email" placeholder = "ex: xxxx@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td class = "campos"><label>Telefone: </label></td> <td><input type = "text" placeholder = "ex: (99)9999-9999"></td>
+                    </tr>    
+                    <tr>
+                        <td class = "campos"><label>Sexo: </label></td> <td><input class = "radio" type = "radio" name = "sexo" value = "M"> Masculino </td> 
+                    </tr>
+                    <tr>
+                        <td class = "campos"></td><td><input class = "radio" type = "radio" name = "sexo" value = "F"> Feminino </td>
+                    </tr>
+                    <tr>
+                        <td class = "campos"><label>UF: </label></td> 
+                        <td>
+                            <input type = "text" list = "uf">
+                            <datalist id = "uf">
+                                <option value = "AC">AC</option>
+                                <option value = "AL">AL</option>
+                                <option value = "AP">AP</option>
+                                <option value = "AM">AM</option>
+                                <option value = "BA">BA</option>
+                                <option value = "CE">CE</option>
+                                <option value = "DF">DF</option>
+                                <option value = "ES">ES</option>
+                                <option value = "GO">GO</option>
+                                <option value = "MA">MA</option>
+                                <option value = "MT">MT</option>
+                                <option value = "MS">MS</option>
+                                <option value = "MG">MG</option>
+                                <option value = "PA">PA</option>
+                                <option value = "PB">PB</option>
+                                <option value = "PR">PR</option>
+                                <option value = "PE">PE</option>
+                                <option value = "PI">PI</option>
+                                <option value = "RJ">RJ</option>
+                                <option value = "RN">RN</option>
+                                <option value = "RS">RS</option>
+                                <option value = "RO">RO</option>
+                                <option value = "RR">RR</option>
+                                <option value = "SC">SC</option>
+                                <option value = "SP">SP</option>
+                                <option value = "SE">SE</option>
+                                <option value = "TO">TO</option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id = "botão">
+                            <input type = "submit" value = "CADASTRAR" id = cadastrar>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+       
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+<html>
+<head>
+    <meta charset = "uft-8">
+    <link rel = "stylesheet" href = "style.css";>
+    <title>Hoteis - Ouro Preto</title>
+    <style>
+        form{
+            position: absolute;
+            left: 460px;
+            top: 150px;
+        }
+
+        .cadastro{
+            border: 2px solid white;
+        }
+
+        .cadastro td{
+            border: 3px solid white;  
+        }
+
+        .cadastro input{
+            position: relative;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 4px;
+            width: 500px;
+            font-family: Verdana;
+        }
+
+        .cadastro input:hover{
+            border: 1px solid rgb(0, 225, 255);
+        }
+
+        .campos{
+            text-align: left;
+            font-family: Verdana;
+        }
+
+        .cadastro .radio{
+            width: 20px;
+        }
+
+        #salvar{
+            position: relative;
+            left: 470px;
+            border: 1px solid black;
+            border-radius: 4px;
+            background-color: rgba(34, 148, 255, 0.705);
+            font-family: Verdana;
+            font-weight: bold;
+            height: 40px;   
+        }
+
+        #salvar:hover{
+            color: white;
+            background-color: rgba(3, 97, 184, 0.705);
+            font-family: Verdana;
+            font-weight: bold;
+            height: 40px;
+        }
+
+        #voltar{
+            color: black;
+            font-size: 14px;
+            font-family: Verdana; 
+        }
+        #voltar:hover{
+            font-family: Verdana;
+            color: rgb(81, 235, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <hr>
+    <div id = "menu">
+        <ul>
+            <li><a href = "hoteis.html">HOTEIS</a></li>
+            <li><a href = "cadastro.html">CADASTRO</a></li>
+        </ul>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+                <table class = "cadastro">
+                    <tr>
+                        <td class = "campos"><label>Nome: </label></td> <td><input type = "text" required></td>
+                    </tr>
+                    <tr>
+                        <td class = "campos"><label>Email:</label></td> <td><input type = "text" placeholder = "ex: xxxx@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td class = "campos"><label>Telefone: </label></td> <td><input type = "text" placeholder = "ex: (99)9999-9999"></td>
+                    </tr>    
+                    <tr>
+                        <td class = "campos"><label>Sexo: </label></td> <td><input class = "radio" type = "radio" name = "sexo" value = "M"> Masculino </td> 
+                    </tr>
+                    <tr>
+                        <td class = "campos"></td><td><input class = "radio" type = "radio" name = "sexo" value = "F"> Feminino </td>
+                    </tr>
+                    <tr>
+                        <td class = "campos"><label>UF: </label></td> 
+                        <td>
+                            <input type = "text" list = "uf">
+                            <datalist id = "uf">
+                                <option value = "AC">AC</option>
+                                <option value = "AL">AL</option>
+                                <option value = "AP">AP</option>
+                                <option value = "AM">AM</option>
+                                <option value = "BA">BA</option>
+                                <option value = "CE">CE</option>
+                                <option value = "DF">DF</option>
+                                <option value = "ES">ES</option>
+                                <option value = "GO">GO</option>
+                                <option value = "MA">MA</option>
+                                <option value = "MT">MT</option>
+                                <option value = "MS">MS</option>
+                                <option value = "MG">MG</option>
+                                <option value = "PA">PA</option>
+                                <option value = "PB">PB</option>
+                                <option value = "PR">PR</option>
+                                <option value = "PE">PE</option>
+                                <option value = "PI">PI</option>
+                                <option value = "RJ">RJ</option>
+                                <option value = "RN">RN</option>
+                                <option value = "RS">RS</option>
+                                <option value = "RO">RO</option>
+                                <option value = "RR">RR</option>
+                                <option value = "SC">SC</option>
+                                <option value = "SP">SP</option>
+                                <option value = "SE">SE</option>
+                                <option value = "TO">TO</option>
+                            </datalist>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <input id = "salvar" type = "submit" value = "CADASTRAR">
+            </fieldset>
+            <a id = "voltar" href = "index.html">VOLTAR</a>
+        </form>
+    </div>
+       
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+#img{
+    width: 150px;
+    height: 150px; 
+    border: 1px solid black; 
+    border-radius: 50%;
+    background-image: url(/img/perfil.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-image: url(../img/c++_carrossel.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: carrossel;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes carrossel {
+    25% {background-image: url(../img/c++_carrossel.png);}
+    50% {background-image: url(../img/js_carrossel.png);}
+    75% {background-image: url(../img/html_carrossel.png);}
+    100% {background-image: url(../img/css_carrossel.png);}
+}
+
+
+@font-face {
+    font-family: 'Chatsile';
+    src: url('../font/Chatsile.otf') format('truetype');
+  }
+
+h1{
+    font-family: Chatsile;
+    font-size: 4em;
+}
+h2, a, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

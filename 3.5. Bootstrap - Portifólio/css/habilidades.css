@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Chatsile';
+    src: url('../font/Chatsile.otf') format('truetype');
+  }
+
+h1{
+    padding: 30px;
+    text-align: center;
+    font-family: Chatsile;
+    font-size: 4em;
+}
+
+main{
+    padding-bottom: 30px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.row{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+}   
+.row:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}

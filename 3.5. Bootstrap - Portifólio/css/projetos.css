@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Chatsile';
+    src: url('../font/Chatsile.otf') format('truetype');
+  }
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Chatsile;
+    font-size: 4em;
+}
+
+h5, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-text{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(151, 151, 151);
+    height: 120px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.imgModal1, .imgModal2, .imgModal3{
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+.imgModal1{
+    background-image: url(../img/cardmoviesModal1.png);
+    animation-name: carrossel1;
+}
+.imgModal2{
+    background-image: url(../img/turismo-ouropreto1.png);
+    animation-name: carrossel2;
+}
+.imgModal3{
+    background-image: url(../img/petcare1.png);
+    animation-name: carrossel3;
+}
+
+.imgModal1:hover, .imgModal2:hover, .imgModal2:hover{
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+@keyframes carrossel1 {
+    50% {background-image: url(../img/cardmoviesModal1.png);}
+    100% {background-image: url(../img/cardmoviesModal2.png);}
+}
+
+@keyframes carrossel2 {
+    50% {background-image: url(../img/turismo-ouropreto1.png);}
+    100% {background-image: url(../img/turismo-ouropreto2.png);}
+}
+
+@keyframes carrossel3 {
+    50% {background-image: url(../img/petcare1.png);}
+    100% {background-image: url(../img/petcare2.png);}
+}

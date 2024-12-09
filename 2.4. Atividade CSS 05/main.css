@@ -1,0 +1,339 @@
+body{
+    width: 100%;
+    height: 130%;
+    background: linear-gradient(to bottom, rgb(255, 205, 141), rgb(230, 154, 110));
+}
+h1{
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-size: 12px;
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr{
+    position: relative;
+    width: 98%;
+    right: 0.7%;
+}
+
+
+
+#menu{  
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 5px;
+    width: 97.5%;
+    li{
+        list-style: none;
+        display: inline;
+    }
+    a {
+        font: 1em verdana;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: rgb(255, 145, 0);
+        padding: 10px;
+    }
+}
+
+#home{ 
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container2{
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(173, 47, 1);
+    width: 78%;
+    height: 60%;
+    background-image: url(./img/carrossel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#container2:hover{
+    width: 88%;
+    height: 70%;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 1rem rgba(0, 0, 0, 0.479));
+}
+
+#container3{
+    position: relative;
+    top: 50px;
+    height: 125px;
+    width: 98%;
+    h2{ 
+        text-align: left;
+        font-size: 1.3em; 
+     }
+}
+
+
+.cadastre-se{
+    
+    position: relative;
+    width: 10%;
+    height: 20px;
+}
+.cadastre-se a{
+        color: rgb(0, 0, 0);
+        font-family: verdana;
+        font-weight: bold;
+        text-align: center;
+}
+
+.cadastre-se a:hover{
+    color: rgb(255, 248, 248);
+}
+
+.serviços{
+    position: absolute;
+    height: 111%;
+    width: 98%;
+    margin: 0 auto;
+    display: grid; 
+}
+
+#linha1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 55%;
+    width: 95%;
+    top: 25px;
+    left: 25px;
+}
+
+.banho{
+    position: absolute;
+    border: 2px solid rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    a{
+        position: absolute;
+        top: 42%;
+        left: 28%;
+        font-family: verdana;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: rgba(255, 245, 245, 0);
+    }
+}
+.banho::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: url(img/banho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+}
+
+
+.banho:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 1rem black);
+    box-shadow: 1px 1px 1.5rem #00000052;
+    opacity: 0.85;
+    a{
+        color: rgb(255, 252, 252);
+        text-shadow: 0px 0px 10px black;
+    }
+    a:hover{
+        color: rgb(255, 145, 0);
+    }
+}
+
+.tosa{
+    position: absolute;
+    display: flex;
+    margin-left: 27%;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    a{
+        position: absolute;
+        top: 42%;
+        left: 35%;
+        font-family: verdana;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: rgba(255, 245, 245, 0);
+    }
+}
+.tosa::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: url(img/tosa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.tosa:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 1rem black);
+    box-shadow: 1px 1px 1.5rem #00000052;
+    opacity: 0.85;
+    a{
+        color: rgb(255, 252, 252);
+        text-shadow: 0px 0px 10px black;
+    }
+    a:hover{
+        color: rgb(255, 145, 0);
+    }
+}
+
+.vacina{
+    position: absolute;
+    display: flex;
+    margin-left: 54%;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    a{
+        position: absolute;
+        top: 42%;
+        left: 28%;
+        font-family: verdana;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: rgba(255, 245, 245, 0);
+    }
+}
+.vacina::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: url(img/vacina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.vacina:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 1rem black);
+    box-shadow: 1px 1px 1.5rem #00000052;
+    opacity: 0.85;
+    a{
+        color: rgb(255, 252, 252);
+        text-shadow: 0px 0px 10px black;
+    }
+    a:hover{
+        color: rgb(255, 145, 0);
+    }
+}
+
+.consulta{
+    position: absolute;
+    display: flex;
+    margin-left: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    a{
+        position: absolute;
+        top: 42%;
+        left: 20%;
+        font-family: verdana;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: rgba(255, 245, 245, 0);
+    }
+}
+.consulta::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: url(img/consulta.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.consulta:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 1rem black);
+    box-shadow: 1px 1px 1.5rem #00000052;
+    opacity: 0.85;
+    a{
+        color: rgb(255, 252, 252);
+        text-shadow: 0px 0px 10px black;
+    }
+    a:hover{
+        color: rgb(255, 145, 0);
+    }
+}
+
+#container{
+    background-color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    height: 90%;
+    width: 98.5%;
+}
+
+.unidades{
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.493);
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+    width: 80%;
+    height: 50%;
+}
+
+
+.tabela{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.linha{
+    border: 2px solid black;
+} 
+
+#sobre{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 30px;
+    font-family: verdana;
+    color: black;
+    text-align: justify;
+}
+

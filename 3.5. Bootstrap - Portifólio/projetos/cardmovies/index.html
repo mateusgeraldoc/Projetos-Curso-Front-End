@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal - Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.87)">
+    <!--NAVBAR-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-warning ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CardMovies</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categoria
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#filmes">Filmes</a></li>
+                  <li><a class="dropdown-item" href="#series">Séries</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <!--FILMES-->
+        <section>
+            <div class="container text-center py-5">
+            <h1 style="color:white">Produtos</h1>
+            <h2 style="color:white" id="filmes">Filmes</h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/deadpool.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">DEADPOOL & WOLVERINE</h5>
+                          <p class="card-text">Dois icônicos heróis unem forças em uma aventura cheia de ação e humor ácido.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal1">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel1">DEADPOOL & WOLVERINE</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                     <div class="container">
+                                        <div class="row">
+                                          <div class="col-6">
+                                            <img src="img/deadpool.png">
+                                            <h2 class="h2Card">Gênero:</h2>
+                                            <p class="pCard">Ação, Comédia</p>
+                                          </div>
+                                          <div class="col-6">
+                                            <h2 class="h2Card">Sinopse:</h2>
+                                            <p class="pCard">"Deadpool e Wolverine" traz uma inesperada parceria entre Deadpool, o mercenário tagarela, e Wolverine, o mutante com garras de adamantium. Juntos, eles enfrentam uma nova ameaça que coloca em risco a segurança dos mutantes. Combinando sequências de ação intensa com o estilo humorístico característico de Deadpool, o filme oferece uma experiência única para os fãs de ambos os heróis.</p>
+                                          </div>
+                                        </div>
+                                     </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/spiderman.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">NO WAY HOME</h5>
+                          <p class="card-text">Peter Parker enfrenta seu maior desafio ao lidar com vilões de diferentes universos.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal2">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="ModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel2">SPIDER-MAN - No Way Home</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/spiderman.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Ação, Aventura, Super-herói</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Spider-Man: No Way Home" segue Peter Parker enquanto ele lida com as consequências de sua identidade secreta ter sido revelada. Em busca de ajuda, ele recorre ao Doutor Estranho, mas um feitiço mal-sucedido abre portais para universos paralelos, trazendo vilões icônicos das franquias anteriores do Homem-Aranha. Agora, Peter deve enfrentar esses inimigos e encontrar uma maneira de salvar o multiverso, redefinindo o que significa ser um herói.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../cardmovies/img/spider-verse.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">SPIDER-VERSE</h5>
+                          <p class="card-text">Um jovem herói descobre o multiverso e encontra versões alternativas do Homem-Aranha.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal3">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="ModalLabel3" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel3">SPIDER-MAN - Into the Spider-Verse</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/spider-verse.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Animação, Ação, Aventura</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Spider-Man: Into the Spider-Verse" acompanha Miles Morales, um adolescente de Nova York que se torna o Homem-Aranha em seu universo. Ele descobre a existência de outras realidades quando versões alternativas do Homem-Aranha se juntam a ele para combater uma ameaça que pode destruir todos os universos. O filme é conhecido por seu estilo de animação inovador e emocionante narrativa.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/end_game.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">AVENGERS - ENDGAME</h5>
+                          <p class="card-text">Os Vingadores restantes unem forças para derrotar Thanos e restaurar a ordem no universo.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal4">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="ModalLabel4" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel4">AVENGERS - Endgame</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/end_game.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Ação, Aventura, Super-herói</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Avengers: Endgame" segue os heróis sobreviventes após o devastador estalo de Thanos. Com a ajuda de novos aliados, eles traçam um plano para desfazer as ações de Thanos e restaurar a paz no universo. O filme culmina em uma batalha épica que redefine o futuro do Universo Cinematográfico Marvel (MCU) e proporciona um fechamento emocionante para a saga dos Vingadores.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container text-center" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/infinity_war.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">AVENGERS - INFINITY WAR</h5>
+                          <p class="card-text"> Os Vingadores enfrentam o poderoso Thanos em uma batalha pela sobrevivência do universo.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal5">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="ModalLabel5" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel5">AVENGERS - Infinity War</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/infinity_war.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Ação, Aventura, Super-herói</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Avengers: Infinity War" traz os heróis do MCU juntos para impedir Thanos de coletar todas as Joias do Infinito, que lhe darão poder ilimitado para destruir metade da vida no universo. O filme é marcado por intensas cenas de ação e momentos dramáticos, culminando em um desfecho chocante que deixou os fãs ansiosos por sua continuação.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/fight_club.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">FIGHT CLUB</h5>
+                          <p class="card-text">Um homem insatisfeito com sua vida forma um clube de luta clandestino.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal6">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="ModalLabel6" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel6">FIGHT CLUB</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/fight_club.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard"> Drama, Suspense</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Fight Club" segue a vida de um narrador sem nome que sofre de insônia e está desiludido com seu trabalho e estilo de vida. Ele encontra Tyler Durden, um vendedor de sabonetes carismático, e juntos, eles fundam um clube de luta secreto que evolui para algo muito mais perigoso. O filme explora temas de identidade, consumismo e autodescoberta.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/piratas_do_caribe.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">PIRATAS DO CARIBE</h5>
+                          <p class="card-text">O capitão Jack Sparrow e um jovem ferreiro enfrentam piratas amaldiçoados.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal7">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal7" tabindex="-1" aria-labelledby="ModalLabel7" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel7">PIRATAS DO CARIBE - A Maldição do Pérola Negra</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/piratas_do_caribe.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard"> Aventura, Fantasia</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Piratas do Caribe: A Maldição do Pérola Negra" segue o capitão Jack Sparrow e Will Turner enquanto eles tentam resgatar Elizabeth Swann do pirata amaldiçoado Capitão Barbossa. A aventura repleta de ação e mistério envolve um tesouro amaldiçoado que transforma os piratas em esqueletos sob a luz da lua.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/senhor_dos_aneis.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">O SENHOR DOS ANÉIS</h5>
+                          <p class="card-text">Um jovem hobbit embarca em uma jornada épica para destruir um anel poderoso.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal8">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal8" tabindex="-1" aria-labelledby="ModalLabel8" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel8">O SENHOR DOS ANÉIS - A Sociedade do Anel</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/senhor_dos_aneis.png">
+                                        <h2 class="h2Card">Gênero: </h2>
+                                        <p class="pCard">Fantasia, Aventura</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">O Senhor dos Anéis: A Sociedade do Anel" segue Frodo Bolseiro, que recebe a missão de destruir o Um Anel, um objeto de poder absoluto que pode trazer destruição ao mundo. Frodo é acompanhado por uma sociedade composta por hobbits, elfos, anões e humanos em sua perigosa jornada para o destino final, a Montanha da Perdição.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--SERIES-->
+        <section>
+            <div class="container text-center py-5">
+            <h2 style="color:white" id="series">Séries</h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/arcane.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">ARCANE</h5>
+                          <p class="card-text">A rivalidade entre duas cidades e duas irmãs com habilidades extraordinárias.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal9">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal9" tabindex="-1" aria-labelledby="ModalLabel9" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel9">ARCANE</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/arcane.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Animação, Ação, Drama</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Arcane" é ambientada no universo do jogo "League of Legends" e explora a tensão entre as cidades de Piltover e Zaun. A série foca na história de duas irmãs, Vi e Jinx, que seguem caminhos diferentes, resultando em conflito e tragédia. Com uma animação impressionante e narrativa envolvente, "Arcane" é uma celebração tanto para os fãs do jogo quanto para novos espectadores.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/breaking_bad.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">BREAKING BAD</h5>
+                          <p class="card-text"> Um professor de química do ensino médio se torna um fabricante de metanfetamina.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal10">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal10" tabindex="-1" aria-labelledby="ModalLabel10" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel10">BREAKING BAD</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/breaking_bad.png">
+                                        <h2 class="h2Card">Gênero: </h2>
+                                        <p class="pCard">Drama, Crime, Suspense</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Breaking Bad" acompanha Walter White, um professor de química diagnosticado com câncer terminal, que começa a produzir e vender metanfetamina para garantir o futuro financeiro de sua família. A série mostra sua transformação de um homem comum em um criminoso implacável, explorando temas de moralidade, corrupção e sobrevivência.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/stranger_things.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">STRANGER THINGS</h5>
+                          <p class="card-text">Um grupo de crianças enfrenta eventos sobrenaturais em sua pequena cidade.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal11">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="Modal11" tabindex="-1" aria-labelledby="ModalLabel11" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel11">STRANGER THINGS</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/stranger_things.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Ficção Científica, Suspense</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Stranger Things" é ambientada na década de 1980 na cidade fictícia de Hawkins. Quando um garoto desaparece misteriosamente, seus amigos encontram uma garota com poderes sobrenaturais que os ajuda a desvendar segredos sombrios e lutar contra criaturas de outra dimensão. A série é conhecida por sua atmosfera nostálgica e referências à cultura pop dos anos 80.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/ozark.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">OZARK</h5>
+                          <p class="card-text">Um consultor financeiro se muda para os Ozarks para lavar dinheiro para um cartel.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel12">OZARK</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/ozark.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard"> Drama, Crime, Suspense</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Ozark" segue Marty Byrde, um consultor financeiro que se muda com sua família para os Ozarks após um esquema de lavagem de dinheiro dar errado. Ele é forçado a operar um grande esquema de lavagem de dinheiro para um cartel de drogas mexicano, enfrentando perigos e dilemas morais em cada passo. A série é conhecida por sua narrativa tensa e personagens complexos.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container text-center" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/game_of_thrones.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">GAME OF THRONES</h5>
+                          <p class="card-text">Sete reinos lutam pelo trono de ferro em uma terra cheia de magia e intrigas.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel13">GAME OF THRONES</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/game_of_thrones.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Drama, Fantasia</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Game of Thrones" segue a disputa entre várias famílias nobres pela conquista do Trono de Ferro de Westeros. A série combina política, guerra, magia e drama, com reviravoltas surpreendentes e personagens complexos. Baseada nos livros de George R. R. Martin, a série é conhecida por suas batalhas épicas e intrigas palacianas.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/the_walking_dead.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">THE WALKING DEAD</h5>
+                          <p class="card-text">Um grupo de sobreviventes luta para viver em um mundo apocalíptico dominado por zumbis.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel14" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel14">THE WALKING DEAD</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/the_walking_dead.png">
+                                        <h2 class="h2Card">Gênero:</h2>
+                                        <p class="pCard">Drama, Terror</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse: </h2>
+                                        <p class="pCard">"The Walking Dead" segue Rick Grimes e um grupo de sobreviventes enquanto eles tentam sobreviver em um mundo dominado por zumbis. A série explora a dinâmica entre os personagens, os desafios de sobrevivência e a constante ameaça dos mortos-vivos e outros grupos de humanos. É uma narrativa sobre resiliência, esperança e humanidade.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/sons_of_anarchy.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">SONS OF ANARCHY</h5>
+                          <p class="card-text">A vida de um clube de motociclistas fora da lei enquanto enfrentam conflitos internos e externos.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel15" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel15">SONS OF ANARCHY</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/sons_of_anarchy.png">
+                                        <h2 class="h2Card">Gênero: </h2>
+                                        <p class="pCard">Crime, Drama</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse: </h2>
+                                        <p class="pCard">"Sons of Anarchy" segue a vida de Jackson "Jax" Teller e seu clube de motociclistas fora da lei na cidade fictícia de Charming, Califórnia. A série explora os conflitos internos do clube, as relações familiares e as ameaças externas, enquanto Jax luta para encontrar um equilíbrio entre sua lealdade ao clube e sua visão para um futuro mais legítimo.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/peaky_biinders.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">PEAKY BLINDERS</h5>
+                          <p class="card-text">Uma gangue de Birmingham dos anos 1920 ascende ao poder entre conflitos e intrigas.</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                            Ver Detalhes
+                          </button>
+                            <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel16" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel16">PEAKY BLINDERS</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="container">
+                                
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img src="img/peaky_biinders.png">
+                                        <h2 class="h2Card">Gênero: </h2>
+                                        <p class="pCard">Crime, Drama Histórico</p>
+                                      </div>
+                                      <div class="col-6">
+                                        <h2 class="h2Card">Sinopse:</h2>
+                                        <p class="pCard">"Peaky Blinders" segue a história da família Shelby, liderada por Thomas Shelby, que controla uma gangue criminosa em Birmingham, Inglaterra, após a Primeira Guerra Mundial. A série aborda a ascensão ao poder da gangue, suas atividades criminosas e os desafios internos e externos que enfrentam. Misturando fatos históricos com ficção, "Peaky Blinders" oferece uma visão intensa e estilizada da era.</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </section>
+      </main>
+
+    <!--FOOTER-->
+    <footer class="bg-warning py-4">
+      <div class="container">
+          <p id="sobre" style="text-align: center; color: black"> &copy; 2024 Landpage - Todos os Direitos Reservados a Mateus Cunha</p>
+      </div>
+    </footer>
+
+    <!--JS Library-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

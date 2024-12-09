@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Chatsile';
+    src: url('../font/Chatsile.otf') format('truetype');
+  }
+
+h1{
+    text-align: center;
+    font-family: Chatsile;
+    font-size: 4em;
+}
+h2, a, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color:rgb(0, 162, 255);
+}
+
+.img-thumbnail{
+    height: 600px;
+}
+img{
+    box-shadow: 2px 2px 5px black;
+}
